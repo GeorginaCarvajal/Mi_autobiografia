@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <title>Mi Horario</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <h1 style="text-align:center;background-color:rgb(0, 228, 122);">Mi Horario</h1>
@@ -11,7 +12,7 @@
     <style>
         table, th, td {
   border: 1px solid rgb(0, 0, 0);
-  border-collapse: collapse;
+  
 }
     </style>
     
@@ -19,142 +20,142 @@
         <caption>Mi Horario Semanal</caption>
         
         <tr>
-          <th>Hora</th>
-          <th>Lunes</th>
-          <th>Martes</th>
-          <th>Miercoles</th>
-          <th>Jueves</th>
-          <th>Viernes</th>
-          <th>Sabado</th>
-          <th>Domingo</th>
+          <th class="Horaa">Hora</th>
+          <th class="Lunes">Lunes</th>
+          <th class="Martes">Martes</th>
+          <th class="Miercoles">Miercoles</th>
+          <th class="Jueves">Jueves</th>
+          <th class="Viernes">Viernes</th>
+          <th class="Sabado">Sabado</th>
+          <th class="Domingo">Domingo</th>
         </tr>
         <tr>
-            <td>4:00am</td>
-            <th colspan="7">Dormir</th>
+            <td class="Hora">4:00am</td>
+            <th colspan="7", class="Dormir">Dormir</th>
 
         </tr>
         <tr>
-          <td>5:00am</td>
-          <th colspan="5">Levantarse</th>
-          <th rowspan="5">Dormir</th>
-          <th rowspan="5">Dormir</th>
+          <td class="Hora">5:00am</td>
+          <th colspan="5", class="Levantarse">Levantarse</th>
+          <th rowspan="5", class="Dormir">Dormir</th>
+          <th rowspan="5", class="Dormir">Dormir</th>
           
         </tr>
         <tr>
-            <td>6:00am</td>
-            <th rowspan="2">Ingles</th>
-            <th rowspan="4">Esp.Sistemas</th>
-            <th rowspan="2">Ed.Fisica</Ed></th>
-            <td>Sociales</td>
-            <td>Politicas</td>
+            <td class="Hora">6:00am</td>
+            <th rowspan="2", class="Ingles">Ingles</th>
+            <th rowspan="4", class="Sistemas" >Esp.Sistemas</th>
+            <th rowspan="2", class="Educacion" >Ed.Fisica</th>
+            <td class="Sociales">Sociales</td>
+            <td class="Politicas">Politicas</td>
 
         <tr>
-            <td>6:50am</td>
-            <th rowspan="2">Castellano</th>
-            <td>Castellano</td>
+            <td class="Hora">6:50am</td>
+            <th rowspan="2", class="Cast">Castellano</th>
+            <td class="Cast">Castellano</td>
         </tr>
         <tr>
-            <td>7:40am</td>
-            <th rowspan="2">Calculo</th>
-            <th rowspan="2">Calculo</th>
-            <th rowspan="2">Fisica</th>
+            <td class="Hora">7:40am</td>
+            <th rowspan="2", class="Calculo">Calculo</th>
+            <th rowspan="2", class="Calculo">Calculo</th>
+            <th rowspan="2", class="Fisica">Fisica</th>
         </tr>
         <tr>
-            <td>8:45am</td>
-            <td>Estadistica</td>
+            <td class="Hora">8:45am</td>
+            <td class="Est">Estadistica</td>
         </tr>
 
         <tr>
-            <td>9:50am</td>
-            <th rowspan="2">Filosofia</th>
-            <td>Religion</td>
-            <td>Artistica</td>
-            <th rowspan="2">Quimica</th>
-            <td>Quimica</td>
-            <th colspan="2">Levantarse</th>
+            <td class="Hora">9:50am</td>
+            <th rowspan="2", class="Filosofia">Filosofia</th>
+            <td class="Religion">Religion</td>
+            <td class="Art">Artistica</td>
+            <th rowspan="2", class="Quimica">Quimica</th>
+            <td class="Quimica">Quimica</td>
+            <th colspan="2", class="Levantarse">Levantarse</th>
         </tr>
         <tr>
-            <td>10:40am</td>
-            <td>Valores</td>
-            <td>Fisica</td>
-            <td>Ingles</td>
-            <th colspan="2">Desayunar</th>
+            <td class="Hora">10:40am</td>
+            <td class="Valores">Valores</td>
+            <td class="Fisica">Fisica</td>
+            <td class="Ingles">Ingles</td>
+            <th colspan="2", class="Religion">Desayunar</th>
         </tr>
         <tr>
-            <td>11:45am</td>
-            <th colspan="5">Llegar a la casa</th>
-            <th colspan="2">Leer</th>
-
-        </tr>
-        <tr>
-            <td>12:30pm</td>
-            <th colspan="5">Almorzar</th>
-            <th colspan="2">tareas</th>
+            <td class="Hora">11:45am</td>
+            <th colspan="5", class="Dev">Llegar a la casa</th>
+            <th colspan="2", class="Filosofia">Leer</th>
 
         </tr>
         <tr>
-            <td>1:30pm</td>
-            <th colspan="5">Estudiar</th>
-            <th colspan="2">tareas</th>
+            <td class="Hora">12:30pm</td>
+            <th colspan="5", class="Almorzar">Almorzar</th>
+            <th colspan="2", class="Tareas">tareas</th>
 
         </tr>
         <tr>
-            <td>2:00pm</td>
-            <td>Salir al colegio</td>
-            <th colspan="4">Estudiar</th>
-            <th colspan="2">tareas</th>
+            <td class="Hora">1:30pm</td>
+            <th colspan="5", class="Estudiar">Estudiar</th>
+            <th colspan="2", class="Tareas">tareas</th>
 
         </tr>
         <tr>
-            <td>2:20pm</td>
-            <th rowspan="4">Especialidad<stud/th>
-            <th colspan="4">Estudiar</th>
-            <th colspan="2">Almorzar</th>
+            <td class="Hora">2:00pm</td>
+            <td class="Salir">Salir al colegio</td>
+            <th colspan="4", class="Estudiar">Estudiar</th>
+            <th colspan="2", class="Tareas">tareas</th>
 
         </tr>
         <tr>
-            <td>3:15pm</td>
-            <td>Ir Al gimnasio</td>
-            <th rowspan="3">Especialidad</th>
-            <th colspan="2">gimnasio</th>
-            <th colspan="2">Estudiar</th>
+            <td class="Hora">2:20pm</td>
+            <th rowspan="4", class="Sistemas">Especialidad<stud/th>
+            <th colspan="4", class="Estudiar">Estudiar</th>
+            <th colspan="2", class="Almorzar">Almorzar</th>
 
         </tr>
         <tr>
-            <td>4:05pm</td>
-            <th rowspan="2">gimnasio</th>
-            <th colspan="2">gimnasio</th>
-            <th rowspan="2">Tejer</th>
-            <th rowspan="2">Salir</th>
+            <td class="Hora">3:15pm</td>
+            <th rowspan="3", class="Gym">gimnasio</th>
+            <th rowspan="3", class="Sistemas">Especialidad</th>
+            <th colspan="2", class="Gym">gimnasio</th>
+            <th colspan="2", class="Estudiar">Estudiar</th>
+
         </tr>
         <tr>
-            <td>5:10pm</td>
-            <th colspan="2">gimnasio</th>
+            <td class="Hora">4:05pm</td>
+            <th colspan="2", class="Gym">gimnasio</th>
+            <th rowspan="2", class="Tejer">Tejer</th>
+            <th rowspan="2", class="Salir">Salir a pasear</th>
         </tr>
         <tr>
-            <td>6:00pm</td>
-            <td>Ir Al gimnasio</td>
-            <th colspan="2">ir a la casa</th>
-            <th colspan="2">ir a la casa</th>
-            <th>Sacar a Almendra</th>
-            <th>Cenar</th>
+            <td class="Hora">5:10pm</td>
+            <th colspan="2", class="Gym">gimnasio</th>
+        </tr>
+        <tr>
+            <td class="Hora">6:00pm</td>
+            <td class="Gym">Ir Al gimnasio</td>
+            <th colspan="2", class="Dev">ir a la casa</th>
+            <th colspan="2", class="Dev">ir a la casa</th>
+            <th class="Salir">Sacar a Almendra</th>
+            <th class="Cenar">Cenar</th>
             
         </tr>
         <tr>
-            <td>7:00pm</td>
-            <td>Ir Al gimnasio</td>
-            <th colspan="5">Cenar</th>
+            <td class="Hora">7:00pm</td>
+            <td class="Gym"> Ir Al gimnasio</td>
+            <th colspan="5", class="Cenar">Cenar</th>
+            <th  rowspan="2", class="Tejer">Tejer</th>
             
         </tr>
         <tr>
-            <td>8:00pm</td>
-            <td>Ir A la casa</td>
-            <th colspan="5">Dormir</th>
+            <td class="Hora">8:00pm</td>
+            <td class="Dev">Ir A la casa</td>
+            <th colspan="5", class="Dormir">Dormir</th>
             
         </tr>
-        <tr>
-            <td>9:00pm a 4:00am</td>
-            <th colspan="7">Dormir</th>
+        <tr class="ultima_fila">
+            <td class="Hora">9:00pm a 4:00am</td>
+            <th colspan="7", class="Dormir">Dormir</th>
             
         </tr>
       </table>

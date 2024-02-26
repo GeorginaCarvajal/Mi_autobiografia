@@ -1,0 +1,95 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    text-shadow: 3px 2px 5px rgb(247, 247, 247);
+    font-size: 300%;
+  }
+
+  div {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid rgb(54, 54, 54);
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(240, 222, 240);
+  }
+  th:first-child{
+    border-top-left-radius: 7px;
+  }
+  
+  th:nth-last-child(1){
+    border-top-right-radius: 7px;
+  }
+  
+  .ultima_fila td:first-child{
+     border-bottom-left-radius: 7px;
+  }
+  
+  .ultima_fila td:nth-last-child(1){
+     border-bottom-right-radius: 7px;
+  }
+¡
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #55a1c5}
+  
+  .button:active {
+    background-color: #e4ace4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  
+
+  .Horaa{ padding:0; margin:0; background-color:#0a88c2;}
+  .Lunes{ padding:0; margin:0; background-color:#06b7d6;}
+  .Martes{ padding:0; margin:0; background-color:#20d699;}
+  .Miercoles{ padding:0; margin:0; background-color:#79dda0;}
+  .Jueves{ padding:0; margin:0; background-color:#8cda8e;}
+  .Viernes{ padding:0; margin:0; background-color:#43c547;}
+  .Sabado{ padding:0; margin:0; background-color:#00ff08;}
+  .Domingo{ padding:0; margin:0; background-color:#028a07;}
+  .Hora{ padding:0; margin:0; background-color:#f5e729;}
+  .Tejer{ padding:0; margin:0; background-color:#9037e4;}
+  .Gym{ padding:0; margin:0; background-color:#00ffdd;}
+  .Sistemas{ padding:0; margin:0; background-color:#f58b70;}
+  .Dormir{ padding:0; margin:0; background-color:#f56980;}
+  .Dev{ padding:0; margin:0; background-color:#1bfa40;}
+  .Tareas{ padding:0; margin:0; background-color:#1082c4;}
+  .Calculo{ padding:0; margin:0; background-color:#f13131;}
+  .Levantarse{ padding:0; margin:0; background-color:#f1e431;}
+  .Estudiar{ padding:0; margin:0; background-color:#c672f7;}
+  .Almorzar{ padding:0; margin:0; background-color:#72f7c4;}
+  .Cenar{ padding:0; margin:0; background-color:#38f370;}
+  .Salir{ padding:0; margin:0; background-color:#f7ee72;}
+  .Art{ padding:0; margin:0; background-color:#a3f772;}
+  .Est{ padding:0; margin:0; background-color:#f0f338;}
+  .Calculo{ padding:0; margin:0; background-color:#aca7f1;}
+  .Religion{ padding:0; margin:0; background-color:#00a2ff;}
+  .Fisica{ padding:0; margin:0; background-color:#f07cb6;}
+  .Cast{ padding:0; margin:0; background-color:#cb7cf0;}
+  .Educacion{ padding:0; margin:0; background-color:#f0aa7c;}
+  .Quimica{ padding:0; margin:0; background-color:#7cf0e1;}
+  .Filosofia{ padding:0; margin:0; background-color:#8a9c90;}
+  .Ingles{ padding:0; margin:0; background-color:#29f06b;}
+  .Sociales{ padding:0; margin:0; background-color:#29c8f0;}
+  .Politicas{ padding:0; margin:0; background-color:#e64e7b;}
+  .Valores{ padding:0; margin:0; background-color:#f0ed58;}
+
+
